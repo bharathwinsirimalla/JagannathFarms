@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagannath Farms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+
+        <nav>
+            <ul class="sidebar">
+                <li style="margin:0" onclick=closeSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" ><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li><a onclick=closeSidebar() href="#about">About</a></li>
+                <li><a onclick=closeSidebar() href="#rooms">Rooms</a></li>
+                <li><a onclick=closeSidebar() href="#amenities">Amenities</a></li>
+                <li><a onclick=closeSidebar() href="#contactus">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><img class="logo" src="Logo-removebg.png" alt="logo"></li>
+                <li onclick=callFarms() class="icon"><a href="https://wa.me/919848212106" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li class="hideOnMobile"><a href="#">About</a></li>
+                <li class="hideOnMobile"><a href="#">Rooms</a></li>
+                <li class="hideOnMobile"><a href="#">Amenities</a></li>
+                <li class="hideOnMobile"><a href="#">Contact Us</a></li>
+                <li class="hideMenu menu" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="bannerimg">
+                <img class="banner-img" src="bannerimg.jpg" alt="Main image">
+                <!-- <video width="100%" poster="img/Mainthumb.jpg" autoplay loop muted>
+                    <source src="jagannathfarms/IMG_5456.HEIC" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> -->
+            </div>
+            <div id="about">
+                <h4>WELCOME TO THE ADOBE OF TRANQUILITY</h4>
+                <p>Jagannath Farms is a self-contained destination that offers a range of accommodations, dining options, recreational activities, and amenities, often set in scenic locations. Resorts cater to relaxation and leisure, featuring facilities like Home Theatre, pools, gym, salon, and sports activities, and may also provide organized excursions and entertainment to enhance guests' experiences.The space is a perfect destination for family gateways, corporate conferences , Birthday Celebrations, Destination Weddings and many more.
+                </p>
+                
+                
+  </div>
+            <div class="video">
+                <video width="100%" poster="poster.png" controls controlsList="nodownload">
+                    <source src="Video.mp4" type="video/mp4">
+                </video>
+            </div>
+  <div id="rooms">
+    <h4>STAY</h4>
+    <div class="scroll">
+        <img class="stay-img" src="staygallery.jpg" alt="">
+        <img class="stay-img" src="staygallery2.jpg" alt="">
+        <img class="stay-img" src="room.jpg" alt="">
+        <img class="stay-img" src="room2.jpg" alt="">
+    </div>
+    <p>Nestled in a serene setting, this well-maintained cottage exudes charm and comfort. Its inviting exterior features a quaint porch adorned with flowering plants, while the interior boasts rustic wood accents and modern amenities. The cozy living space, complete with a fireplace, is perfect for relaxation. Surrounded by nature, this cottage offers a peaceful retreat, making it an ideal gateway for those seeking tranquility and a connection to the outdoors.
+    </p>
+    </div>
+    <div id="amenities">
+        <h4>AMENITIES</h4>
+        <div class="amenities-gallery">
+            <h5>HOME THEATRE</h5>
+            <div class="scroll">
+                <img src="home-theatre2.png" alt="">
+                <img src="home-theatre.png" alt="">
+            </div>
+            <h5>POOL & RAIN DANCE</h5>
+            <div class="scroll">
+                <img src="pool.jpg" alt="">
+                <img src="rain-dance.jpg" alt="">
+            </div>
+            <h5>GYM</h5>
+            <img src="gym.jpg" alt="">
+            <h5>LAWN AREA</h5>
+            <img src="lawn-area.jpg" alt="">
+        </div>
+        <div id="location">
+            <h4>LOCATION</h4>
+            <div class="location-inside">
+
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;hl=en&amp;q=jagannath farms adilabad&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/"></a></div><style>.mapouter{position:relative;text-align:right;width:100%}.gmap_canvas {overflow:hidden;background:none!important;width:100%;}.gmap_iframe {width:100%!important;}</style></div>
+            </div>
+        </div>
+        <div id="contactus">
+            <h4>CONTACT US</h4>
+            <p>
+                Iskcon Temple, Bombay ginning, Rampur Road, Adilabad, Telangana 504001, India. <br>
+
+            </p>
+            <div class="contact">
+                <span>Email:</span>
+                <a href="mailto:jagannathfarms00@gmail.com">jagannathfarms00@gmail.com</a>
+                <span>Whatsapp:</span>
+                <a href="https://wa.me/919848212106" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+        </main>
+        <script src="script.js"></script>
+</body>
+</html>
